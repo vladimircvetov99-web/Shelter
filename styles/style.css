@@ -214,3 +214,44 @@ main {
     position: absolute;
     right: 150px;
 }
+
+.shelter {
+    padding: 80px 100px;
+}
+
+.shelter__inner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 120px;
+    max-width: 1200px;
+
+}
+
+.shelter__img {
+    display: block;
+    width: 300px;
+    height: auto;
+    padding: 0 175px;
+}
+
+.shelter__info {
+    max-width: 430px;
+}
+
+.shelter__title {
+    color: #545454;
+    margin-bottom: 25px;
+}
+
+.shelter__text,
+.shelter__text-l {
+    font-family: Arial, sans-serif;
+    font-size: 15px;
+    line-height: 1.6;
+    color: #4c4c4c;
+}
+
+.shelter__text {
+    margin-bottom: 25px;
+}
