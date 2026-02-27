@@ -26,10 +26,12 @@ body {
     line-height: 1.1;
     font-weight: 400;
     color: var(--text-main) ;
+    margin: 0;
 }
 
 a {
     color: inherit;
+    font-family: Arial, sans-serif;
 }
 
 p {
@@ -113,13 +115,16 @@ ul {
 }
 
 .header {
+    position: absolute;
+    left: 0;
+    top: 0;   
   width: 100%;
-  max-width: 1395px;
+  max-width: 1400px;
   padding: 60px 40px; 
   display: flex;
   justify-content: space-between;
   align-items: center;
-    background: radial-gradient(circle at left top, #5b483a, #262425 60%);
+   
 }
  
 .logo h1 {
@@ -167,4 +172,45 @@ ul {
   width: 100%;
   height: 3px;
   background-color: #f1cdb3;
+}
+
+main {
+    margin-bottom: 80px;
+}
+.intro {
+    padding-top: 186px;
+     background: radial-gradient(circle at left top, #5b483a, #262425 60%);   
+}
+
+.top {
+    padding: 60px 0 0;
+}
+.intro__inner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.intro__content {
+    width: 310px;
+    padding: 223px 40px;
+}
+
+.intro__title {
+    color: #FFFFFF;
+    margin-bottom: 40px;
+}
+
+.intro__subtitle {
+    color: #CDCDCD;
+    margin-bottom: 42px;
+}
+
+.btn {
+    color: #292929;
+}
+
+.intro__image {
+    position: absolute;
+    right: 150px;
 }
