@@ -272,7 +272,7 @@ ul {
 }
 
 .friends {
-    background-color: ##F6F6F6;
+    background-color: #F6F6F6;
 }
 
 .friends__inner {
@@ -285,13 +285,52 @@ ul {
     text-align: center;
     padding-bottom: 64px;
     color: #545454;
-
 }
 
-.friends__cards {
-    width: 270px;
+.friends__slider {
+   position: relative;
+   top: -1px;
+    left: 1px;
+}
+
+.arrow__left,
+.arrow__right {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+}
+.arrow__left {
+   right: calc(100% + 52px);
+}
+.arrow__right {
+    left: calc(100% + 52px);
+}
+
+.friends__cards-inner {
+    display: flex; 
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 60px;
+}
+
+.card__link {
+    color: inherit;
+    display: block;
+    transition: 0.3s;
+        width: 270px;
     text-align: center;
     border-radius: 9px;
+    overflow: hidden;
+}
+
+.card__link:hover {
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+    transform: translateY(-5px);
+}
+
+
+.card__link:hover .friends__info {
+    background-color: #ffffff;
 }
 
 .friends__card-pic {
@@ -301,8 +340,16 @@ ul {
 .friends__info {
 background: #FAFAFA;
 padding: 30px 0;
+ transition: background-color 0.3s ease;
 }
 
 .friends__item-titile {
     margin-bottom: 32px;
 }
+
+.btn__friend {
+    display: block;
+    margin: 0 auto;
+    
+}
+
