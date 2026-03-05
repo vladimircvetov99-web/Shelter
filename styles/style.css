@@ -273,6 +273,7 @@ ul {
 
 .friends {
     background-color: #F6F6F6;
+    padding: 0 0 100px 0;
 }
 
 .friends__inner {
@@ -350,6 +351,32 @@ padding: 30px 0;
 .btn__friend {
     display: block;
     margin: 0 auto;
-    
-}
+    }
+
+    .help {
+        padding: 90px 20px;
+        text-align: center;
+    }
+
+    .help__inner {
+        max-width: 1200px;
+        margin: 0 auto;
+    }
+
+    .help__title {
+        margin-bottom: 60px;
+    }
+
+    .help__items {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 56px 120px;
+    }
+
+    .help__item img {
+        width: 60px;
+        height: 60px;
+        margin-bottom: 30px;
+    }
 
