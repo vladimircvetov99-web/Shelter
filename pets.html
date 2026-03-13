@@ -1,29 +1,201 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="styles/pets.css">
 </head>
+
 <body>
 
-            <h1>Make a friend</h1>
-    <h2>Make a friend</h2>
-    <h3>Make a friend</h3>
-    <h4>Make a friend</h4>
+    <!-- Header -->
+    <header class="header">
+        <div class="logo">
+            <h1 class="logo__title">Cozy House</h1>
+            <p class="logo__subtitile">Shelter for pets in Boston</p>
+        </div>
 
-    <a href="#" class="btn">Make a friend</a>
-    <button class="btn">Make a friend</button>
+        <nav class="nav">
+            <ul class="nav__list">
+                <li><a href="#about">About the shelter</a></li>
+                <li><a href="#pets" class="active">Our pets</a></li>
+                <li><a href="#help">Help the shelter</a></li>
+                <li><a href="#contacts">Contacts</a></li>
+            </ul>
+        </nav>
+    </header>
 
-    <a href="#" class="btn btn-outline">Make a friend</a>
-    <button class="btn btn-outline">Make a friend</button>
-    <button class="btn btn-circle">1</button>
-    <button class="btn btn-circle" disabled>1</button>
-    <button class="btn btn-circle btn-outline">1</button>
-    <button class="btn btn-circle btn-outline" disabled>1</button>
-    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum nulla animi laboriosam, dolores nisi voluptatibus ullam ipsam assumenda aliquid repudiandae eius voluptatem architecto nesciunt ducimus. Quisquam amet tempore ullam nobis.</p>
+        <!--Header end-->
 
-    
+        <!--Our friends start-->
+
+    <section class="friends">
+        <div class="friends__inner">
+            <h3 class="friends__title">
+                Our friends who<br>
+                are looking for a house
+            </h3>
+
+            <div class="friends__cards-inner">
+                <div class="friends__cards">
+                    <a href="#" class="card__link">
+                        <div class="friends__card">
+
+                            <div class="friends__card-pic">
+                                <img src="./public/img/pets-katrine.png" alt="Cat Katrine">
+                            </div>
+
+                            <div class="friends__info">
+                                <h4 class="friends__item-titile">Katrine</h4>
+                                <button class="btn btn-outline">Learn more</button>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <a href="#" class="card__link">
+                    <div class="friends__card">
+                        <div class="friends__card-pic">
+                            <img src="./public/img/pets-jennifer.png" alt="Dog Jennifer">
+                        </div>
+                        <div class="friends__info">
+                            <h4 class="friends__item-titile">Jennifer</h4>
+                            <button class="btn btn-outline">Learn more</button>
+                        </div>
+                    </div>
+                </a>
+                <a href="#" class="card__link">
+                    <div class="friends__card">
+                        <div class="friends__card-pic">
+                            <img src="./public/img/pets-woody.png" alt="Dog Woody">
+                        </div>
+                        <div class="friends__info">
+                            <h4 class="friends__item-titile">Woody</h4>
+                            <button class="btn btn-outline">Learn more</button>
+                        </div>
+                    </div>
+                </a>
+                <a href="#" class="card__link">
+                    <div class="friends__card">
+                        <div class="friends__card-pic">
+                            <img src="./public/img/pets-sophia.jpg" alt="Dog Sophia">
+                        </div>
+                        <div class="friends__info">
+                            <h4 class="friends__item-titile">Sophia</h4>
+                            <button class="btn btn-outline">Learn more</button>
+                        </div>
+                    </div>
+                </a>
+                <a href="#" class="card__link">
+                    <div class="friends__card">
+                        <div class="friends__card-pic">
+                            <img src="./public/img/pets-timmy.jpg" alt="Cat Timmy">
+                        </div>
+                        <div class="friends__info">
+                            <h4 class="friends__item-titile">Timmy</h4>
+                            <button class="btn btn-outline">Learn more</button>
+                        </div>
+                    </div>
+                </a>
+                <a href="#" class="card__link">
+                    <div class="friends__card">
+                        <div class="friends__card-pic">
+                            <img src="./public/img/pets-charly.jpg" alt="Dog Charly">
+                        </div>
+                        <div class="friends__info">
+                            <h4 class="friends__item-titile">Charly</h4>
+                            <button class="btn btn-outline">Learn more</button>
+                        </div>
+                    </div>
+                </a>
+                <a href="#" class="card__link">
+                    <div class="friends__card">
+                        <div class="friends__card-pic">
+                            <img src="./public/img/pets-scarlet.jpg" alt="Dog Scarlett">
+                        </div>
+                        <div class="friends__info">
+                            <h4 class="friends__item-titile">Scarlett</h4>
+                            <button class="btn btn-outline">Learn more</button>
+                        </div>
+                    </div>
+                </a>
+                <a href="#" class="card__link">
+                    <div class="friends__card">
+                        <div class="friends__card-pic">
+                            <img src="./public/img/pets-freddie.jpg" alt="Cat Freddie">
+                        </div>
+                        <div class="friends__info">
+                            <h4 class="friends__item-titile">Freddie</h4>
+                            <button class="btn btn-outline">Learn more</button>
+                        </div>
+                    </div>
+                </a>
+
+            </div>
+            <div class="pagination">
+            <button class="btn btn-circle" disabled>&lt;&lt;</button>
+            <button class="btn btn-circle" disabled>&lt;</button>
+            <button class="btn btn-circle">1</button>
+            <button class="btn btn-circle btn-outline">&gt;</button>
+            <button class="btn btn-circle btn-outline">&gt;&gt;</button>
+            </div>
+        </div>
+    </section>
+
+    <!--Our friends end-->
+
+    <!--Footer start-->
+
+      <!-- Footer start -->
+
+      <section class="contact">
+        <div class="footer__bg">
+        <div class="contact__inner">
+            <div class="contact__block">
+                <h3 class="h3__subtitle">For questions and suggestions</h3>
+
+                <ul class="contact__list">
+                    <li class="contact__item">
+                        <img src="./public/img/svg/mail.svg" alt="mail">
+                        <a href="mailto:email@shelter.com">email@shelter.com</a>
+                    </li>
+
+                    <li class="contact__item">
+                        <img src="./public/img/svg/phone.svg" alt="phone">
+                        <a href="tel:+136745677554">+13 674 567 75 54</a>
+                    </li>
+                </ul>
+            </div>
+
+            <div class="contact__block">
+                <h3>We are waiting for your visit</h3>
+
+                <ul class="contact__list">
+                    <li class="contact__item">
+                        <img src="./public/img/svg/pin.svg" alt="location">
+                        <p>1 Central Street, Boston (entrance from the store)</p>
+                    </li>
+
+                    <li class="contact__item">
+                        <img src="./public/img/svg/pin.svg" alt="location">
+                        <p>18 South Park, London </p>
+                    </li>
+                </ul>
+            </div>
+
+            <div class="contact__dog">
+                <img src="./public/img/footer-puppy.png" alt="dog">
+            </div>
+
+        </div>
+        </div>
+      </section>
+
+       <!-- Footer end -->
+
+
+
 </body>
+
 </html>
