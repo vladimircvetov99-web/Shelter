@@ -30,6 +30,7 @@ body {
     font-weight: 400;
     color: var(--text-main) ;
     margin: 0;
+    padding: 0;
 }
 
 a {
@@ -448,10 +449,12 @@ padding: 30px 0;
     }
 
     .contact {
-         background-image: url(../public/img/noise_transparent.png);
-        padding: 40px 0;
         background: radial-gradient(circle at left top, #5b483a, #262425 60%);
         color: white;
+    }
+
+    .footer__bg {
+         background-image: url(../public/img/noise_transparent.png);
     }
 
     .contact__inner {
@@ -501,6 +504,309 @@ padding: 30px 0;
     .contact__dog img {
         width: 300px;
        position: relative;
-       top: 43px;
+       top: 4px;
     }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width: 1200px) {
+    .intro__image {
+        right: 0;
+    }
+}
+
+
+@media (max-width: 909px) {
+
+.header {
+    padding: 30px 20px;
+}
+
+.nav__list {
+    gap: 20px;
+}
+
+/* Intro */
+
+.intro__inner {
+    padding: 140px 20px 0;
+}
+
+.intro__content {
+    max-width: 291px;
+}
+
+.intro__image img {
+    width: 560px;
+}
+
+/* Shelter */
+
+.shelter {
+    padding: 50px 40px;
+}
+
+.shelter__inner {
+    flex-direction: column;
+    gap: 40px;
+    text-align: center;
+}
+
+.shelter__img {
+    width: 260px;
+}
+
+/* Friends */
+
+.friends__cards-inner {
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;
+}
+
+.arrow__left {
+    right: 94%;
+    z-index: 2;
+} 
+
+.arrow__right {
+    left: 94%;
+    z-index: 2;
+}
+
+/* Help */
+
+.help {
+    padding: 70px 20px;
+}
+
+.help__items {
+    gap: 40px 60px;
+}
+
+/* Donation */
+
+.donation {
+    padding: 60px 30px;
+}
+
+.donation__inner {
+    text-align: center;
+}
+
+.donation__img {
+    width: 100%;
+    max-width: 400px;
+}
+
+.donation__img img {
+    width: 430px;
+}
+
+/* Footer */
+
+.contact__inner {
+    text-align: center;
+    gap: 40px;
+}
+
+.contact__dog img {
+    width: 240px;
+}
+
+}
+
+@media (max-width: 768px) {
+
+.header {
+    padding: 30px 20px;
+}
+
+.nav__list {
+    gap: 20px;
+}
+
+/* Intro */
+
+.intro__inner {
+    flex-direction: column;
+    text-align: center;
+    padding: 150px 20px 0;
+}
+
+.intro__content {
+    padding-bottom: 40px;
+}
+
+.intro__title {
+    text-align: start;
+    width: 310px;
+}
+
+.intro__subtitle {
+    width: 460px;
+    text-align: left;
+}
+
+.intro__image {
+    position: static;
+    margin-top: 30px;
+}
+
+.intro__image img {
+    width: 569px;
+}
+
+/* Shelter */
+
+.shelter {
+    padding: 60px 40px;
+}
+
+.shelter__inner {
+    flex-direction: column-reverse;
+    text-align: center;
+    gap: 40px;
+}
+
+.shelter__info {
+    text-align: left;
+}
+
+.shelter__img {
+    width: 260px;
+}
+
+/* Friends */
+
+.friends__cards-inner {
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;
+}
+
+.friends__cards-inner .card__link:nth-child(3) {
+    display: none;
+}
+
+.arrow__right {
+    left: 90%;
+}
+
+.arrow__left {
+    right: 90%;
+}
+
+
+
+/* Help */
+
+.help__items {
+    gap: 40px 60px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+/* Donation */
+
+.donation {
+    padding: 60px 40px;
+}
+
+.donation__inner {
+    flex-direction: column-reverse;
+    text-align: center;
+}
+
+.donation__info {
+    text-align: left;
+}
+
+.donation__img {
+    width: 100%;
+    max-width: 400px;
+}
+
+/* Footer */
+
+.contact__inner {
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 40px;
+    text-align: center;
+}
+
+.contact__block {
+    max-width: 300px;
+}
+
+.contact__list {
+    align-items: center;
+}
+
+.contact__item {
+    justify-content: center;
+}
+
+.contact__block h3 {
+    margin-bottom: 30px;
+}
+
+.contact__item-it img {
+    width: 22px;
+}
+
+.contact__item p {
+    font-size: 20px;
+}
+
+.contact__item img {
+    width: 40px;
+}
+
+.contact__dog {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.contact__dog img {
+    width: 260px;
+}
+
+}
+
+
+
 
