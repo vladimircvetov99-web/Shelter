@@ -15,13 +15,13 @@
         <p class="logo__subtitile">Shelter for pets in Boston</p>
       </div>
 
-      <button class="burger" aria-label="Toggle menu">
+      <button class="burger" id="burger">
         <span></span>
         <span></span>
         <span></span>
       </button>
 
-      <nav class="nav">
+      <nav class="nav" id="nav">
         <ul class="nav__list">
           <li><a href="#about" class="active">About the shelter</a></li>
           <li><a href="pets.html" target="_blank">Our pets</a></li>
@@ -244,7 +244,7 @@
 
     <!-- Footer start -->
 
-    <section class="contact">
+    <footer class="contact">
       <div class="footer__bg">
         <div class="contact__inner">
           <div class="contact__block">
@@ -284,9 +284,37 @@
           </div>
         </div>
       </div>
-    </section>
-
+    </а>
+    </footer>
     <!-- Footer end -->
+
+    <button class="open-modal">Open modal</button>
+
+    <div class="modal" id="modal">
+      <div class="modal__overlay"></div>
+      <div class="modal__content">
+        <button class="modal__close" id="close-modal">
+          ×
+        </button>
+        <div class="modal__img">
+          <img src="public/img/pets-jennifer.png" alt="">
+        </div>
+        <div class="modal__info">
+          <h2>Jennifer</h2>
+          <h3>Dog- Labrador</h3>
+          <p>
+            Jennifer is a sweet 2 months old Labrador that is patiently waiting to find a new forever home. This girl really enjoys being able to go outside to run and play, but won't hesitate to play up a storm in the house if she has all of her favorite toys.
+          </p>
+
+          <ul>
+          <li><strong>Age:</strong> <span id="age"></span></li>
+          <li><strong>Inoculations:</strong> <span id="inoculations"></span></li>
+          <li><strong>Diseases:</strong> <span id="diseases"></span></li>
+          <li><strong>Parasites:</strong> <span id="parasites"></span></li>
+          </ul>
+        </div>
+      </div>
+    </div>
 
     <script src="js/main.js"></script>
   </body>
