@@ -529,6 +529,54 @@ padding: 30px 0;
        top: 4px;
     }
 
+    .modal {
+        position: relative;
+        width: 1000px;
+        margin: 40px auto;
+        padding: 50px 70px;
+    }
+
+    .card__content {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        gap: 60px;
+    }
+
+    .card__info {
+        width: 420px;
+    }
+
+    .card__image img {
+        width: 320px;
+        object-fit: contain;
+    }
+
+    .card__info ul {
+        margin-top: 30px;
+        padding-left: 20px;
+    }
+
+    .card__info ul li {
+        margin-bottom: 14px;
+        font-size: 20px;
+        color: #111;
+    }
+
+    .close-btn {
+        position: absolute;
+        top: 20px;
+        right: 20px;
+        width: 55px;
+        height: 55px;
+        border: 2px solid#d8b08c;
+        border-radius: 50%;
+        background: transparent;
+        color: #222;
+        font-size: 32px;
+        cursor: pointer;
+    }
+
 
 
 
