@@ -24,10 +24,18 @@
 
       <nav class="nav" id="nav">
         <ul class="nav__list">
-          <li><a href="#about" class="active">About the shelter</a></li>
-          <li><a href="pets.html" target="_blank">Our pets</a></li>
-          <li><a href="#help">Help the shelter</a></li>
-          <li><a href="#contacts">Contacts</a></li>
+          <li>
+            <a href="#about" class="active">About the shelter</a>
+          </li>
+          <li>
+            <a href="pets.html" target="_blank">Our pets</a>
+          </li>
+          <li>
+            <a href="#help">Help the shelter</a>
+          </li>
+          <li>
+            <a href="#contacts">Contacts</a>
+          </li>
         </ul>
       </nav>
     </header>
@@ -48,7 +56,7 @@
               extremely wide and open heart. He or she will love you more than
               anybody else in the world, you will see!
             </p>
-            <a href="#pets" class="btn">Make a friend</a>
+            <a href="#friends" class="btn">Make a friend</a>
           </div>
           <div class="intro__image">
             <img src="public/img/puppy.png" alt="Dogs" />
@@ -60,7 +68,7 @@
 
     <!-- Shelter start -->
 
-    <section class="shelter">
+    <section class="shelter" id="about">
       <div class="shelter__inner">
         <div class="shelter__img">
           <img src="public/img/about-pets.png" alt="Dog and Cat" />
@@ -88,7 +96,7 @@
 
     <!-- Our friends start -->
 
-    <section class="friends">
+    <section class="friends" id="friends">
       <div class="friends__inner">
         <h3 class="friends__title">
           Our friends who<br />
@@ -111,7 +119,7 @@
 
                   <div class="friends__info">
                     <h4 class="friends__item-titile">Katrine</h4>
-                    <button class="btn btn-outline">Learn more</button>
+                    <button class="btn btn-outline" id="learnMore">Learn more</button>
                   </div>
                 </div>
               </a>
@@ -123,7 +131,7 @@
                 </div>
                 <div class="friends__info">
                   <h4 class="friends__item-titile">Jennifer</h4>
-                  <button class="btn btn-outline">Learn more</button>
+                  <button class="btn btn-outline" id="learnMore">Learn more</button>
                 </div>
               </div>
             </a>
@@ -134,7 +142,7 @@
                 </div>
                 <div class="friends__info">
                   <h4 class="friends__item-titile">Woody</h4>
-                  <button class="btn btn-outline">Learn more</button>
+                  <button class="btn btn-outline" id="learnMore">Learn more</button>
                 </div>
               </div>
             </a>
@@ -149,7 +157,7 @@
 
     <!-- Help friends start -->
 
-    <section class="help">
+    <section class="help" id="help">
       <div class="help__inner">
         <h3 class="help__title">
           How you can help<br />
@@ -245,7 +253,7 @@
 
     <!-- Footer start -->
 
-    <footer class="contact">
+    <footer class="contact" id="contacts">
       <div class="footer__bg">
         <div class="contact__inner">
           <div class="contact__block">
@@ -292,8 +300,8 @@
     
 
     <div class="modal" id="modal">
-       <button class="close-btn" id="close-btn">
-          ×
+       <button class="btn btn-outline btn-circle close-btn" id="close-btn">
+          <img src="public/img/svg/ico.svg" alt="">
         </button>
       <div class="modal__overlay"></div>
       <div class="card__content">
